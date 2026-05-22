@@ -8,3 +8,7 @@ class UserCreate(UserBase):
 
 class UserResponse(UserBase):
     pass
+
+class UserLogin(BaseModel):
+    email: str
+    password: str 
