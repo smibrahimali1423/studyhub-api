@@ -1,9 +1,6 @@
 from jose import jwt
 from datetime import datetime, timedelta, timezone
-
-SECRET_KEY = "random"
-
-ALGORITHM = "HS256"
+from app.core.config import SECRET_KEY, ALGORITHM
 
 ACCESS_TOKEN_EXPIRE_MINUTES = 30
 
